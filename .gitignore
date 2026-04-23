@@ -48,12 +48,15 @@ real_vs_fake/
 *~
 .DS_Store
 
-# Outputs and logs
-outputs/
+# Outputs and logs (but not results/)
+outputs/models/
+outputs/logs/
 logs/
 *.log
-*.json
 runs/
+
+# Exclude JSON logs, but keep evaluation metrics
+!/results/**/*.json
 
 # Jupyter
 .ipynb_checkpoints/
