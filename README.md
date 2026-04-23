@@ -305,38 +305,6 @@ engine.visualize_batch(['img1.jpg', 'img2.jpg'])
 engine.print_prediction('image.jpg')
 ```
 
-## Troubleshooting
-
-### Issue: ImportError - No module named 'torch'
-
-**Solution:**
-```bash
-pip install torch torchvision
-```
-
-### Issue: CUDA out of memory
-
-**Solutions:**
-1. Reduce batch size in config: `batch_size = 16` instead of 32
-2. Use CPU: Set `device = 'cpu'` in config
-3. Use lightweight architecture: `mobilenetv3` instead of `resnet50`
-
-### Issue: Dataset loading error
-
-**Solution:**
-Make sure dataset is organized:
-```bash
-python organize_dataset.py --source ../real_vs_fake --target dataset
-```
-
-### Issue: Model checkpoint not found
-
-**Solution:**
-Train the model first:
-```bash
-python main.py --config mobilenetv3 --mode train
-```
-
 ## Performance Benchmarks
 
 ### MobileNetV3 (Recommended)
