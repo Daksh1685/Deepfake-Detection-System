@@ -1,0 +1,29 @@
+# Python dependencies for deepfake detection project
+
+# Core
+numpy==1.24.3
+pandas==2.0.3
+Pillow==10.0.0
+
+# PyTorch (CUDA 11.8 compatible, adjust if needed)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Utilities
+tqdm==4.66.1
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Optional (for advanced features)
+tensorboard==2.13.0
+opencv-python==4.8.0.76
+
+# Optional: Model downloading
+huggingface-hub==0.16.1  # For Hugging Face model downloads
+gdown==4.7.1              # For Google Drive model downloads
+
+# Development (optional)
+jupyter==1.0.0
+ipython==8.14.0
