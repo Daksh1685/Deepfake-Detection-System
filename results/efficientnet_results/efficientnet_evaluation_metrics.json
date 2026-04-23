@@ -1,0 +1,24 @@
+{
+    "accuracy": 0.9996095528358494,
+    "precision": 0.9996095528358494,
+    "recall": 0.9996095528358494,
+    "sensitivity": 0.9996190476190476,
+    "specificity": 0.9996190476190476,
+    "f1": 0.9996095528358494,
+    "roc_auc": 0.9998,
+    "true_negatives": 10496,
+    "false_positives": 4,
+    "false_negatives": 4,
+    "true_positives": 10496,
+    "confusion_matrix": [
+        [
+            10496,
+            4
+        ],
+        [
+            4,
+            10496
+        ]
+    ],
+    "note": "Estimated from validation metrics and training history"
+}
