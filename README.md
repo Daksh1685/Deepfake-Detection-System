@@ -376,9 +376,9 @@ engine.print_prediction('image.jpg')
 ## Support
 
 For issues or questions:
-1. Check the Troubleshooting section
-2. Review sample outputs in outputs/logs/
-3. Check training history in outputs/logs/training_history.json
+1. Review sample outputs in outputs/logs/
+2. Check training history in outputs/logs/training_history.json
+3. Check the [DETAILED_WORKFLOW_ALL_MODELS.md](DETAILED_WORKFLOW_ALL_MODELS.md) for complete guidance
 
 ---
 
