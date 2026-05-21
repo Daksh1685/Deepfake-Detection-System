@@ -3,7 +3,7 @@
 A lightweight deep learning project for detecting manipulated forensic face images using modern CNN architectures.
 
 ## Features
-
+ 
 * Detects real vs fake forensic face images
 * Built with PyTorch and transfer learning
 * Supports MobileNetV3, EfficientNet-B0, and ResNet-50
