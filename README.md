@@ -70,10 +70,6 @@ print(result)
 * Cybercrime investigation
 * Face tampering analysis
 
-## License
-
-MIT License
-
 ---
 
 
