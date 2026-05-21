@@ -76,4 +76,4 @@ MIT License
 
 ---
 
-Based on CNN-powered forensic face image analysis. fileciteturn0file0
+
